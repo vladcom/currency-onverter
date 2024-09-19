@@ -3,7 +3,7 @@ import './style.scss';
 import { MenuItem, Select } from '@mui/material';
 
 import en from '../../../assets/en.svg';
-import ru from '../../../assets/ru.svg';
+import pl from '../../../assets/pl.svg';
 import ua from '../../../assets/ua.svg';
 import { useTranslation } from 'react-i18next';
 
@@ -23,7 +23,7 @@ const LangSwitcher = () => {
     const iconMap = {
       en: <img src={en} alt="English" />,
       ua: <img src={ua} alt="Ukrainian" />,
-      ru: <img src={ru} alt="Russian" />,
+      pl: <img src={pl} alt="Polish" />,
     }; 
 
     return (
@@ -60,9 +60,9 @@ const LangSwitcher = () => {
           <img src={ua} alt="Ukrainian" className='langSwitch_selectItem' />
           <span className='langSwitch_selectLabel'>UA</span>
         </MenuItem>
-        <MenuItem value='ru'>
-          <img src={ru} alt="Russian" className='langSwitch_selectItem' />
-          <span className='langSwitch_selectLabel'>RU</span>
+        <MenuItem value='pl'>
+          <img src={pl} alt="Polish" className='langSwitch_selectItem' />
+          <span className='langSwitch_selectLabel'>PL</span>
         </MenuItem>
       </Select>
     </div>
