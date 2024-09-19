@@ -1,5 +1,6 @@
+import { MenuItem, Select, Skeleton, TextField } from "@mui/material";
 import { useCallback, useContext } from "react";
-import { TextField, Select, Skeleton, MenuItem } from "@mui/material";
+
 import { CurrencyContext } from "../../../context/CurrencyContext/currencyContext";
 
 export const InputField = ({ second, value, label, setPairOne, setPairTwo, pairOne, pairTwo}) => {
