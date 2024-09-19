@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(209, 209, 209);
+
+  &_item {
+    span:first-child {
+      font-weight: 500;
+    }
+    span:nth-child(2) {
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.converter {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  &_change {
+    margin: 10px 0!important;
+    
+    button {
+      transform: rotate(90deg);
+    }
+    
+  }
+
+}

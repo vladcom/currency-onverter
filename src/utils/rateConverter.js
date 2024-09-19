@@ -1,0 +1,1 @@
+export const rateConverter = (rate) => (1/rate).toFixed(2);
